@@ -1,15 +1,14 @@
 # ggunchained
 
-This is an extension for ggplot2 in a very early stage of development.
-The inital goal is to find out, whether package like this could be useful for us. 
+This is an extension for ggplot2 in a very early stage of development - almost nothing works yet.
+The inital goal is to find out, whether a package like this could be useful for us.
 
 ### What it does
-1. Minimal, ready-to-use ggplot2 themes
-  1.1. theme_janco_point() with all gridlines
-  1.2. theme_janco_bar() without vertical gridlines
+###### Minimal ggplot2 themes
+theme_janco_point(), theme_janco_bar()
 
-2. Split violin function 
-  2.1. geom_split_violin()
+###### Split violin function 
+geom_split_violin()
 
 ### How to install
 ```r
