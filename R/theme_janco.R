@@ -38,7 +38,7 @@ theme_janco_point <- function(base_size = 12, base_family = "sans") {
       # GRID AND TITLE
       panel.grid = element_line(colour = NULL),
       panel.grid.major =
-        element_line(colour = colors["Medium Gray"]),
+        element_line(colour = "#D2D2D2"),
       panel.grid.minor = element_blank(),
       plot.title = element_text(hjust = 0, size = rel(1.5), face = "bold"),
       plot.margin = unit(c(1, 1, 1, 1), "lines"),
@@ -85,7 +85,7 @@ theme_janco_bar <- function(base_size = 12, base_family = "sans") {
 
      # GRID AND TITLE
      panel.grid = element_line(colour = NULL),
-     panel.grid.major = element_line(colour = colors["Medium Gray"]),
+     panel.grid.major = element_line(colour = "#D2D2D2"),
      panel.grid.minor = element_blank(),
      panel.grid.major.x = element_blank(),
      plot.title = element_text(hjust = 0, size = rel(1.5), face = "bold"),
