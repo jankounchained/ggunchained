@@ -1,0 +1,17 @@
+Package: ggunchained
+Type: Package
+Title: ggplot visualisation shortcuts
+Version: 0.0.1
+Author: JanCoUnchained
+Authors@R: person("Jan", "Kostkan", email = "kostkan.jan@gmail.com",
+                  role = c("aut", "cre"))
+Description: Standard plot design for our study group (in a very early stage of development)
+License: CC0
+Encoding: UTF-8
+LazyData: true
+Imports:
+    tidyverse,
+    ggthemes
+RoxygenNote: 6.1.1
+Suggests: 
+    testthat
