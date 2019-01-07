@@ -5,6 +5,7 @@
 #' @param base_size global font size (number)
 #' @param base_family global font family (e.g. sans, serif)
 #' @return Adds a theme to a ggplot
+#' @export
 #' @examples
 #' ggplot(mtcars, aes(x = wt, y = mpg, colour = factor(gear))) +
 #' geom_point() +
@@ -52,6 +53,7 @@ theme_janco_point <- function(base_size = 12, base_family = "sans") {
 #' @param base_size global font size (number)
 #' @param base_family global font family (e.g. sans, serif)
 #' @return Adds a theme to a ggplot
+#' @export
 #' @examples
 #' ggplot(mtcars, aes(x = wt, y = mpg, colour = factor(gear))) +
 #'   geom_point() +

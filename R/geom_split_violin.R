@@ -1,4 +1,5 @@
 #' Utility function that is used by geom_split_violin()
+#' @export
 #' @description TBA, taken from https://gist.github.com/Karel-Kroeze/746685f5613e01ba820a31e57f87ec87
 
 GeomSplitViolin <- ggplot2::ggproto("GeomSplitViolin", ggplot2::GeomViolin,
@@ -28,6 +29,7 @@ GeomSplitViolin <- ggplot2::ggproto("GeomSplitViolin", ggplot2::GeomViolin,
 #' Split violin plot
 #' @description TBA, but it is very similar to geom_violin()
 #'    Taken from https://gist.github.com/Karel-Kroeze/746685f5613e01ba820a31e57f87ec87
+#' @export
 #' @examples
 #' ggplot(mtcars, aes(x = wt, y = mpg, colour = factor(gear))) +
 #' geom_split_violin()
