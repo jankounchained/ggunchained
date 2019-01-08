@@ -4,11 +4,16 @@ This is an extension for ggplot2 in a very early stage of development - almost n
 The inital goal is to find out, whether a package like this could be useful for us.
 
 ### What it does
-###### Minimal ggplot2 themes
-theme_janco_point(), theme_janco_bar()
+##### ggplot2 themes
+theme_janco_point(), 
+![](figure/theme_janco_point.png)
 
-###### Split violin function 
+theme_janco_bar()
+![](figure/theme_janco_bar.png)
+
+##### Split violin function 
 geom_split_violin()
+![](figure/geom_split_violin.png)
 
 ### How to install
 ```r
