@@ -17,7 +17,7 @@ theme_janco_point <- function(base_size = 12, base_family = "sans") {
   (theme_foundation(base_size = base_size, base_family = base_family)
     + theme(
       line = element_line(colour = "black"),
-      rect = element_rect(fill = "#F0F0F0",
+      rect = element_rect(fill = "#ffffff",
                           linetype = 0, colour = NA),
       text = element_text(colour = "#3C3C3C"),
 
@@ -66,7 +66,7 @@ theme_janco_bar <- function(base_size = 12, base_family = "sans") {
   (theme_foundation(base_size = base_size, base_family = base_family)
    + theme(
      line = element_line(colour = "black"),
-     rect = element_rect(fill = "#F0F0F0",
+     rect = element_rect(fill = "#ffffff",
                          linetype = 0, colour = NA),
      text = element_text(colour = "#3C3C3C"),
 
